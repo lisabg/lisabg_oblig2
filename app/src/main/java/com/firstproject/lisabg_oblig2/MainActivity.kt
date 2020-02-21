@@ -35,7 +35,7 @@ interface AlpacaApi {
 
 class MainActivity : AppCompatActivity() {
 
-    private val baseUrl = "https://www.uio.no/studier/emner/matnat/ifi/IN2000/v20/obligatoriske-oppgaver/"
+    private val baseUrl = "https://in2000-alpakkaproxy.ifi.uio.no/"
     private lateinit var viewManager: RecyclerView.LayoutManager
     private lateinit var viewAdapter: RecyclerView.Adapter<*>
     private var alpacas : MutableList<Alpaca>? = null
