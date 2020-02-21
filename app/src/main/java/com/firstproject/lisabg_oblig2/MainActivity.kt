@@ -16,19 +16,19 @@ import retrofit2.http.GET
 
 interface AlpacaApi {
 
-    @GET("alpakka0.json")
+    @GET("alpakka0")
     suspend fun fetch0Alpacas(): Response<MutableList<Alpaca>>
 
-    @GET("alpakka2.json")
+    @GET("alpakka2")
     suspend fun fetch2Alpacas(): Response<MutableList<Alpaca>>
 
-    @GET("alpakka20.json")
+    @GET("alpakka20")
     suspend fun fetch20Alpacas(): Response<MutableList<Alpaca>>
 
-    @GET("alpakka200.json")
+    @GET("alpakka200")
     suspend fun fetch200Alpacas(): Response<MutableList<Alpaca>>
 
-    @GET("alpakka2000.json")
+    @GET("alpakka2000")
     suspend fun fetch2000Alpacas(): Response<MutableList<Alpaca>>
 
 }
